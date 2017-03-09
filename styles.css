@@ -1,0 +1,140 @@
+
+header {
+	width:1270px;
+	height:600px;
+	text-align: center;
+
+}
+.headline{
+	padding-top: 140px;
+}
+
+h1 {
+	text-align: left;
+	padding-left: 200px;
+	padding-top: 80px;
+	font-family: 'Lora', serif;
+	color: white;
+	font-size: 38pt;
+}
+
+
+.container{
+padding-top: 490px;
+}
+
+p{
+  font-family: 'Lora', serif;
+  font-size:12pt;
+margin-top: 15px;
+  margin-bottom: 40px;
+  margin-right: 180px;
+  margin-left: 180px;
+}
+p.byline{
+	font-family: 'Lora', serif;
+	color: white;
+	padding-left: 60px;
+	text-align: left;
+	padding-top: -100px;
+
+
+}
+p.head{
+	margin-top: -450px;
+}
+p.space{
+	margin-top: -20px;
+}
+
+img.float{
+	float: left;
+	clear: right;
+}
+
+blockquote {
+  font-style: italic;
+  font-size: 18pt;
+  font-family: 'Lora', serif;
+  margin-right: 200px;
+  margin-left: 200px;
+  margin-bottom: 40px;
+  border-left: none;
+
+}
+
+hr{
+
+	border-style: inset;
+	color: black;
+	border-width: 0.5px;
+}
+
+.footer {
+box-sizing: border-box; /* will need vendor prefixes for webkit and mozilla */
+font-size: 10px;
+font-family: 'Lora', serif;
+color: grey;
+padding-left: 189px;
+margin-top: -10px;
+}
+.footer-item {
+    width: 15%;
+    float: left;
+		padding-left:15px;
+		padding-right: 10px;
+}
+
+.footer-item + .footer-item {
+    border-left: 0.5px solid grey;
+}
+p.bottom-space{
+	padding-bottom: 50px;
+}
+
+#slideshow {
+    position: relative;
+    width: 540px;
+    height: 540px;
+    padding-left: 500px;
+		margin-left: 150px;
+		margin-bottom: 70px;
+
+
+}
+
+#slideshow > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+
+.video-overlay {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    margin: 10px;
+    padding: 5px 5px;
+		font-family: 'Lora', serif;
+    color: #FFF;
+		font-size: 38px;
+		background-color: rgba(50, 50, 50, 0.3);
+}
+.image {
+   position: relative;
+   width: 100%; /* for IE 6 */
+}
+
+p.image {
+   position: absolute;
+	 font-family: 'Lora', serif;
+color: red;
+font-weight: bold;
+   top: 150px;
+   left: 0;
+   width: 500px;
+	 padding-left: 60px;
+	 font-size: 60px;
+}
